@@ -50,6 +50,12 @@ Current checkpoint to move towards. This will update when the wire reaches the n
 ### curvedLine
 Reference to the CurvedLine2D component.
 
+### StartRopePull()
+Call this to activate the "pulling" of the rope / cable.
+
+### GetTransformPoints()
+Returns `transformPoints` as an array.
+
 ## Checkpoint.cs
 
 ### failChance
