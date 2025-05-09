@@ -87,9 +87,12 @@ This is used to point the transform point to its matching checkpoint.
 ### float speed
 How fast the transform point will move to the next checkpoint. (assigned by `Rope.cs`)
 
+### Checkpoint nextPoint
+The checkpoint that is currently being moved towards.
+
+### p_rope
+Reference to the Rope component of the parent object.
     
-    private float speed;                            //Speed of movement (does nothing right now
-    private Checkpoint nextPoint;                   //Checkpoint being moved towards
     private Rope p_rope;                            //Parent object rope
     private Vector3 startPos;                       //Starting position of this object in world space
     private Vector3 adjustedPos;                    //Adjustment point if the checkpoint fails
