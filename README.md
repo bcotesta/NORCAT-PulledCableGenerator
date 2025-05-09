@@ -1,6 +1,6 @@
 # PULLED ROPE GENERATOR 
 
-###### NORCAT || Brandon Cotesta
+###### NORCAT || Brandon Cotesta || Version 0.1.1
 
 This tool was designed to make the process of generating pulled cable along a cable tray easier.
 While it does generate all the necessary gameobjects, you still need to manually move the checkpoints to create a path.
