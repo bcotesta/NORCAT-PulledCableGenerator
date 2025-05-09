@@ -36,6 +36,7 @@ public class Debug_PullRopeOnKeyPress : MonoBehaviour
 ## Checkpoints
 
 ### failChance
-float value - `failChance`. This value represents the percent chance of a cable movement error while crossing the checkpoint. It should range from 0-1.
+Every checkpoint has a float value called `failChance`. This value represents the percent chance of a cable movement error while crossing the checkpoint. It should range from 0-1.
 
 ### failPosition
+`failPosition` is a reference to the transform of a failPosition object attatched to each checkpoint. If the checkpoint triggers a fail, the transformPoint of the wire that has the same index as the current checkpoint will adjust to the failPosition. The goal is for this to give it the effect of getting caught or veering out of place.
