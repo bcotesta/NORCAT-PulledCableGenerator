@@ -13,6 +13,7 @@ General rules of thumb:
 
 In order for the rope to actually move, you have to call the StartRopePull() function in the Rope class.
 
+#### Example of calling StartRopePull();
 ```c#
 using UnityEngine;
 
