@@ -33,7 +33,24 @@ public class Debug_PullRopeOnKeyPress : MonoBehaviour
     }
 }
 ```
-## Checkpoints
+## Rope.cs
+
+### ropePullSpeed
+Speed the rope gets "pulled" at.
+
+### checkpoints 
+Array of all checkpoints for the "cable track".
+
+### transformPoints
+Array of all transform points of the rope
+
+### currentCheckpoint
+Current checkpoint to move towards. This will update when the wire reaches the next checkpoint.
+
+### curvedLine
+Reference to the CurvedLine2D component.
+
+## Checkpoint.cs
 
 ### failChance
 Every checkpoint has a float value called `failChance`. This value represents the percent chance of a cable movement error while crossing the checkpoint. It should range from 0-1.
