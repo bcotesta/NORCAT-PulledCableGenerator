@@ -90,10 +90,15 @@ How fast the transform point will move to the next checkpoint. (assigned by `Rop
 ### Checkpoint nextPoint
 The checkpoint that is currently being moved towards.
 
-### p_rope
+### Rope p_rope
 Reference to the Rope component of the parent object.
+
+### Vector3 startPos
+The starting position of the transform point.
+
+### Vector3 adjustedPos
+The location of the transform point if the checkpoint fails the cable.
     
-    private Rope p_rope;                            //Parent object rope
-    private Vector3 startPos;                       //Starting position of this object in world space
+    
     private Vector3 adjustedPos;                    //Adjustment point if the checkpoint fails
     bool adjusting = false;                         //True if the checkpoint failed and the point is adjusting / moving to the adjustment point
