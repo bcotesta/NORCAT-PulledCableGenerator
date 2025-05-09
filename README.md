@@ -101,3 +101,9 @@ The location of the transform point if the checkpoint fails the cable.
     
 ### bool adjusting
 True if the checkpoint has failed and the point is moving to the adjustment point.
+
+### void ResetRope()
+Resets the position and checks of the cable.
+
+### void RopeFails()
+Tells the cable to start adjusting to the adjustment point. 
