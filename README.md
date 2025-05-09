@@ -5,7 +5,7 @@
 This tool was designed to make the process of generating pulled cable along a cable tray easier.
 While it does generate all the necessary gameobjects, you still need to manually move the checkpoints to create a path.
 
-###General rules of thumb:
+### General rules of thumb:
 1) Plan your path with generous amounts of checkpoints.
 2) Give corners many extra checkpoints to make it appear smoother, rather than linear and rigid.
 3) Remember to adjust the chance of failure, as well as fail positions along the checkpoints.
@@ -33,4 +33,6 @@ public class Debug_PullRopeOnKeyPress : MonoBehaviour
     }
 }
 ```
-##Checkpoints
+## Checkpoints
+
+Each checkpoint has a float value called `failChance`. This value represents the percent chance of a cable movement error while crossing the checkpoint. It should range from 0-1.
