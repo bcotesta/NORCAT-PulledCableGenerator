@@ -99,6 +99,5 @@ The starting position of the transform point.
 ### Vector3 adjustedPos
 The location of the transform point if the checkpoint fails the cable.
     
-    
-    private Vector3 adjustedPos;                    //Adjustment point if the checkpoint fails
-    bool adjusting = false;                         //True if the checkpoint failed and the point is adjusting / moving to the adjustment point
+### bool adjusting
+True if the checkpoint has failed and the point is moving to the adjustment point.
