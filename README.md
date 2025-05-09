@@ -35,4 +35,5 @@ public class Debug_PullRopeOnKeyPress : MonoBehaviour
 ```
 ## Checkpoints
 
+###failChance
 Each checkpoint has a float value called `failChance`. This value represents the percent chance of a cable movement error while crossing the checkpoint. It should range from 0-1.
