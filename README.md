@@ -13,3 +13,22 @@ General rules of thumb:
 
 In order for the rope to actually move, you have to call the StartRopePull() function in the Rope class.
 
+```c#
+using UnityEngine;
+
+public class Debug_PullRopeOnKeyPress : MonoBehaviour
+{
+    public Rope rope;
+
+    private void Update()
+    {
+        if (rope != null)
+        {
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                rope.StartRopePull();
+            }
+        }
+    }
+}
+```
