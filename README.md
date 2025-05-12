@@ -6,6 +6,9 @@
 This tool was designed to make the process of generating pulled cable along a cable tray easier.
 While it does generate all the necessary gameobjects, you still need to manually move the checkpoints to create a path.
 
+While not the prettiest solution, right now the way to give it the look of being pulled by a rope rather than just floating is to puit a CurvedLine3D on the checkpoints, and give it a smaller radius or width than the cable. 
+I am working on a better solution.
+
 ### General rules of thumb:
 1) Plan your path with generous amounts of checkpoints.
 2) Give corners many extra checkpoints to make it appear smoother, rather than linear and rigid.
