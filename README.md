@@ -1,4 +1,4 @@
-# PULLED ROPE GENERATOR 
+# PULLED CABLE GENERATOR 
 ###### NORCAT || Brandon Cotesta || Version 0.1.2
 
 ###### CHANGELOG - V0.1.2: Added support for both 3D and 2D line renderers.
