@@ -1,7 +1,8 @@
 # PULLED CABLE GENERATOR 
-###### NORCAT || Brandon Cotesta || Version 0.1.3
+###### NORCAT || Brandon Cotesta || Version 0.2.0
 
 ###### CHANGELOG 
+- V0.2.0: Reverse pulled cable,  bug fixes
 - V0.1.3: Fixed naming inconsistency 
 - V0.1.2: Added support for both 3D and 2D line renderers.
 
