@@ -40,6 +40,7 @@ public class Debug_PullRopeOnKeyPress : MonoBehaviour
     }
 }
 ```
+# Notable variables and functions
 ## Rope.cs
 
 ### float ropePullSpeed
@@ -52,7 +53,7 @@ Array of all checkpoints for the "cable track".
 Array of all transform points of the rope
 
 ### int currentCheckpoint
-Current checkpoint to move towards. This will update when the wire reaches the next checkpoint.
+index of urrent checkpoint to move towards. This will update when the cable reaches the next checkpoint.
 
 ### CurvedLine2D curvedLine
 Reference to the CurvedLine2D component.
@@ -80,7 +81,10 @@ Every checkpoint has a float value called `failChance`. This value represents th
 True if the transform point has reached its matching checkpoint
 
 ### bool isLastPoint
-True if the last point on the cable. It should automatically be checked when generating a cable, but if it isn't you will get an error.
+True if the last point on the cable. It should automatically be checked when generating a cable.
+
+### bool isFirstPoint
+True if the first point on the cable. It should automatically be checked when generating a cable.
 
 ### bool canMove
 True if the transform point can move.
@@ -88,7 +92,7 @@ True if the transform point can move.
 ### bool incremented
 True if the NextCheckpoint method has been called, so it doesnt keep calling itself.
 
-### int inded
+### int index
 This is used to point the transform point to its matching checkpoint.
 
 ### float speed
